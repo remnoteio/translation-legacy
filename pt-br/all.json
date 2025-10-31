@@ -552,8 +552,8 @@
         "TITLE": "Largura Completa "
       },
       "INTERFACE": {
-        "KEYWORDS": "idioma idioma tradução i18n",
-        "TITLE": "Idioma da interface do RemNote"
+        "TITLE": "Idioma da interface do RemNote",
+        "KEYWORDS": "idioma idioma tradução i18n"
       },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "dicas ajuda suporte aprender tutorial",
@@ -722,9 +722,9 @@
       "LABEL": "Gravar"
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Pesquisar imagem",
       "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
       "INVALID": "Formato de arquivo incorreto!",
-      "LABEL": "Pesquisar imagem",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",

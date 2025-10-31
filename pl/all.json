@@ -564,8 +564,8 @@
         "TITLE": "Pełna szerokość"
       },
       "INTERFACE": {
-        "KEYWORDS": "lang language translation translate i18n Język Tłumacz Tłumaczenie",
-        "TITLE": "Język Interfejsu RemNote (Alpha)"
+        "TITLE": "Język Interfejsu RemNote (Alpha)",
+        "KEYWORDS": "lang language translation translate i18n Język Tłumacz Tłumaczenie"
       },
       "IN_APP_SUGGESTIONS": {
         "KEYWORDS": "Wskazówki Tooltipy Tooltips Pomoc Wsparcie Poradnik",
@@ -730,9 +730,9 @@
       "UPLOADING": "Przesyłanie..."
     },
     "WIKIMEDIA_COMMONS": {
+      "LABEL": "Wyszukiwanie obrazów",
       "EMPTY": "Upuść pliki PDF, dokumenty Word, prezentacje PPT i <moreLink>inne</moreLink> tutaj!",
       "INVALID": "Nieprawidłowy format pliku!",
-      "LABEL": "Wyszukiwanie obrazów",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDF-y",
