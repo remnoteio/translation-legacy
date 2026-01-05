@@ -332,11 +332,11 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Utilize seu crédito",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} mês",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} meses",
       "COPIED": "Copiado!",
       "COPYLINK": "Copiar Link",
       "CREATE_ACCOUNT": "Crie uma conta para convidar amigos",
-      "CREDIT_BALANCE": "Balanço de Creditos",
-      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>",
       "EMAIL_PLACEHOLDER": "amigocuriosos@gmail.com",
       "ENTER_VALID_EMAIL": "Digite um e-mail válido!",
       "FRIENDS_TITLE": "Amigos",
@@ -352,13 +352,16 @@
       "INVITE_TEXT": "Convide amigos e ganhe créditos",
       "KEYWORDS": "convidar amigos ganhar créditos plano mudar assinatura ganhar créditos grátis remnote enviar tweet email escolher plano aprendizado vitalício pro recursos detalhamento preços opções",
       "NOT_CONFIRMED_EMAIL": "(não confirmou e-mail)",
+      "REMAINING_MONTHS": "Meses Restantes",
       "SEND_INVITE": "Enviar convite",
       "SHARE_LINK": "Compartilhar link de convite",
       "TITLE": "Ganhe Créditos",
       "TOAST_RENEW": "Seus créditos serão aplicados automaticamente quando sua assinatura atual for renovada.",
       "TOAST_SUBSCRIBE": "Seus créditos serão aplicados automaticamente quando você assinar o RemNote Pro. Escolha um plano abaixo para começar!",
       "TOTAL_MONTHS_EARNED": "Total de Meses Pro Adquiridos",
-      "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail."
+      "VERIFY_EMAIL": "Para convidar alguém, primeiro verifique seu e-mail.",
+      "CREDIT_BALANCE": "Balanço de Creditos",
+      "CREDIT_BALANCE_TEXT": "Você tem<bold> {{userCredit}}</bold> de créditos restantes e ganhou<bold> {{userCreditEarned}}</bold> de créditos no total. {{months}} mês ou meses restantes de RemNote Pro gratuitamente.<div><br /> Assine o Pro para começar a usar seu crédito! Você não será cobrado até que seu crédito acabe.</div>"
     },
     "EDITOR": {
       "DATES_AND_TIMES": {
@@ -530,8 +533,8 @@
           "TITLE": "Habilitar Recursos de IA"
         },
         "OPENAI_KEY": {
-          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento.",
-          "TITLE": "Chave da API OpenAI"
+          "TITLE": "Chave da API OpenAI",
+          "DESCRIPTION": "Se você acabar excedendo sua cota mensal de requisições de IA, você pode se cadastrar para solicitar uma chave API em https://platform.openai.com/account/api-keys e inseri-la aqui, pagando pelo seu próprio uso. Note que isso é um recurso em beta e pode ser removido a qualquer momento."
         }
       }
     },
@@ -691,8 +694,10 @@
   "SOURCES": {
     "LINK_SOURCE": {
       "ENTER_URL": "Inserir URL",
+      "EMBED_LINK": "Incorporar Link",
       "INVALID_URL": "URL inválido",
       "LABEL": "Link da Fonte",
+      "LABEL_MOBILE": "Links",
       "LINK": "Link",
       "LINK_WITH_COUNT_one": "{{count, number}} Link",
       "LINK_WITH_COUNT_other": "{{count, number}} Links",
@@ -704,12 +709,17 @@
       "IMPORT_INSTEAD": "O RemNote não pode aceitar uploads de arquivos desse tipo. No entanto, talvez possamos importar as anotações ou flashcards desse arquivo! Tente escolher \"Importar\" no menu superior esquerdo da conta.",
       "INVALID": "Formato incorreto de arquivo",
       "LABEL": "Upload de Fonte",
+      "LABEL_MOBILE": "Arquivos",
       "PDF": "PDF",
       "PDF_WITH_COUNT_one": "{{count, number}} PDF",
       "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Selecionar Arquivos",
       "SELECT_FILES_TO_UPLOAD": "Selecione arquivos para fazer upload",
+      "UPLOAD": "Enviar",
       "UPLOADING": "Enviando..."
+    },
+    "RECORD_SOURCE": {
+      "LABEL": "Gravar"
     },
     "WIKIMEDIA_COMMONS": {
       "EMPTY": "Solte PDFs, docs do Word, PPTs e<moreLink> mais</moreLink> aqui!",
@@ -757,7 +767,6 @@
         "OPEN_IN_ANOTHER_PANE_TITLE": "Abrir em Outro Painel",
         "PROPERTIES_CONFIGURATION_TITLE": "Configurar",
         "PROPERTIES_TITLE": "Propriedades",
-        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais",
         "TABLE_CONFIGURATION_TITLE": "Tabela",
         "VIEW_AS": {
           "LIST_VIEW": "Lista",
@@ -766,7 +775,8 @@
           "VIEW_AS_TITLE": "Ver como"
         },
         "ZOOM_IN_TO_LIST_TITLE": "Dar Zoom na Lista",
-        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela"
+        "ZOOM_IN_TO_TABLE_TITLE": "Dar Zoom na Tabela",
+        "SHOW_VERTICAL_LINES_TITLE": "Mostar Linhas Verticais"
       },
       "TAG": {
         "EDIT_TABLE_NAME": "Editar Nome da Tabela",
@@ -803,7 +813,6 @@
     "AUTO_APPLY": "Autoaplicar",
     "AUTO_APPLY_HELP_TEXT": "Este modelo será automaticamente aplicado a todas as linhas de sua tabela, ou em todas os Rem marcados com este modelo.",
     "CREATE_TEMPLATE": "Criar Modelo",
-    "HIDE_CONFIGURATION": "Ocultar Configurações",
     "NEW_TEMPLATE": "Modelo Novo",
     "PROPERTIES_HELP_TEXT": {
       "0": "Propriedades descrevem uma tag. Por exemplo, para uma tag chamada \"Livro\", adicione propriedades para Autor, Gênero, Status de Leitura e mais!"
@@ -819,6 +828,7 @@
     "TEMPLATE_one": "Modelo",
     "TEMPLATE_other": "Modelos",
     "TURN_OFF_AUTO_APPLY": "Desativar Aplicar Automaticamente",
-    "VIEW_CONFIGURATION": "Configurar Tag"
+    "VIEW_CONFIGURATION": "Configurar Tag",
+    "HIDE_CONFIGURATION": "Ocultar Configurações"
   }
 }
